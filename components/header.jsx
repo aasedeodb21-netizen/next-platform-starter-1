@@ -4,12 +4,7 @@ import netlifyLogo from 'public/netlify-logo.svg';
 import githubLogo from 'public/images/github-mark-white.svg';
 
 const navItems = [
-    { linkText: 'Home', href: '/' },
-    { linkText: 'Revalidation', href: '/revalidation' },
-    { linkText: 'Image CDN', href: '/image-cdn' },
-    { linkText: 'Edge Function', href: '/edge' },
-    { linkText: 'Blobs', href: '/blobs' },
-    { linkText: 'Classics', href: '/classics' }
+    { linkText: 'AASE-EMIS', href: '/' },
 ];
 
 export function Header() {
@@ -30,7 +25,7 @@ export function Header() {
                 </ul>
             )}
             <Link
-                href="https://github.com/netlify-templates/next-platform-starter"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden lg:inline-flex lg:ml-auto"
